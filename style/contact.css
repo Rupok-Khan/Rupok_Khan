@@ -1,0 +1,222 @@
+
+@font-face {
+    font-family: birthday;
+    src: url(../fonts/Birthday\ Party.otf);
+}
+@font-face {
+    font-family:catima ;
+    src: url(../fonts/Catima.otf);
+}
+@font-face {
+    font-family: monoton;
+    src: url(../fonts/Monoton-Regular.ttf);
+}
+@font-face {
+    font-family: PROTEST;
+    src: url(../fonts/ProtestStrike-Regular.ttf);
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* navbar */
+.navbar{
+    max-width: 100%;
+    height: 80px;
+    background-color:  #ffffff;
+    display: flex;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo{
+    margin-left: 20px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bolder;
+    color:black;
+    font-family: protest;
+}
+.khan{
+    color: rgb(187, 7, 172);
+}
+.nav-items{
+display: flex;
+justify-content: space-between;
+
+}
+.nav-in-item{
+ list-style: none;
+
+ margin-left: 50px;
+ justify-content: center;
+ text-align: center;
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    
+    padding-bottom: 5px;
+}
+.nav-link:hover{
+    border-bottom: 3px solid rgb(7, 88, 71);
+    transition: 0.1s ease-in-out;
+}
+.buton{
+    margin-right: 30px;
+}
+
+#download-cv{
+    padding: 15px 25px 15px 25px;
+    background-color: #074643;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+#download-cv:hover{
+    background-color: #75085a;
+    transition: 0.3s ease-in-out;
+}
+
+/* content */
+header {
+    background-color: #074643;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-top: 1em;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+button {
+    margin-top: 1em;
+    padding: 0.7em;
+    border: none;
+    background-color: #074643;
+    color: #fff;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #9b074c;
+}
+.contact-info {
+    margin-top: 2em;
+}
+.contact-info p {
+    margin: 0.5em 0;
+}
+.contact-info p a{
+    color: black;
+}
+.contact-info a {
+    color: #000000;
+    text-decoration: none;
+}
+.contact-info a:hover {
+    text-decoration: underline;
+}
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: #fff;
+}
+
+
+
+footer{
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    background-color: black;
+    color: white;
+}
+
+.icons a{
+text-decoration: none;
+}
+.icons a i{
+margin-left: 10px;
+color: #31ac19;
+font-size: 1.4rem;
+}
+
+.contact-info{
+    margin: 0px;
+}
+.copy-right input{
+border-radius: 10px;
+border: none;
+}
+.contact-info a{
+text-decoration: none;
+color: white;
+}
+.send{
+margin: 0;
+padding: 3px 10px 3px  10px;
+border-radius: 10px;
+background-color: #31ac19;
+color: white;
+border: none;
+cursor: pointer;
+margin-left: 0.5em;
+}
+
+.footer_mail{
+    display: flex;
+}
+
+.rights {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: #fff;
+}

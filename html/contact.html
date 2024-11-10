@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="../style/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+<!-- 
+    navbar -->
+    <div class="navbar">
+        <div class="logo">
+            <a href="../html/index.html">
+            Rupok <span class="khan">Khan</span> 
+            </a>
+        </div>
+        <div class="nav-content">
+          <ul class="nav-items">
+            <li class="nav-in-item"><a href="../html/index.html" class="nav-link">Home</a></li>
+            <li class="nav-in-item"><a href="../html/about_me.html" class="nav-link">About</a></li>
+            <li class="nav-in-item"><a href="" class="nav-link">Service</a></li>
+            <li class="nav-in-item"><a href="" class="nav-link">Blog</a></li>
+            <li class="nav-in-item"><a href="../html/contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+        <div class="buton">
+           
+            <button id="download-cv"> <i class="fa-solid fa-download"></i> Download CV</button>
+        </div>
+   </div>
+
+   <!-- content -->
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+
+    <div class="container">
+        <form action="submit-form.php" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+            <h3>Get in Touch</h3>
+            <p>Email: <a href="rupok124519@gmail.com">rupok124519@gmail.com</a></p>
+            <p>Phone: 01984646174</p>
+            <p>LinkedIn:</p>
+      </div>
+   </div>
+
+
+   <footer>
+    <div class="social-media">
+      <h1>Follow Me</h1>
+      <div class="icons">
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+        <a href=""><i class="bi bi-github"></i></a>
+      </div>
+    </div>
+
+    <div class="contact-info">
+      <h1>Contact Info</h1>
+      <p>Mobile : 01790199872</p>
+      <a href="">Email : rupok124519@gmail.com</a>
+    </div>
+
+    <div class="copy-right">
+      <h1>Newsletter</h1>
+      <div class="footer_mail">
+        <input type="email" placeholder="Email Address"> 
+        <button class="send">Send</button>
+      </div>
+     
+    </div>
+  </footer>
+  <div class="rights">
+    <p>&copy; 2024 Rupok Khan. All rights reserved.</p>
+</div>
+</body>   
